@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://pesoto.github.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./templete_files/analytics.js.下载"></script><script async="" src="./templete_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108085250-1');
+</script>
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo">
+  <!-- add description and keywords for SEO -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Chenshuaizheng's 3SUnet</title>
+<meta name="generator" content="Jekyll v3.9.2">
+<meta property="og:title" content="llzhaoshuo">
+<meta name="author" content="llzhaoshuo">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="PhD">
+<meta property="og:description" content="Economist">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="./templete_files/main.css">
+  <link rel="canonical" href="https://pesoto.github.io//">
+  <link rel="alternate" type="application/rss+xml" title="Paul E. Soto" href="https://pesoto.github.io//feed.xml">
+</head>
+
+
+  <body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu">
+      <li class="nav-link"><a href="https://gonghewandou.github.io/Page1/" class="logo"><strong>Home</strong></a>
+      <!--</li><li class="nav-link"><a href="https://llzhaoshuo.github.io/research"><strong>Research</strong></a>-->
+      </li><li class="nav-link"><a href="https://gonghewandou.github.io/Page1/"><strong>About Me</strong></a>     
+      </li></ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="wrapper">
+<div class="page">
+
+  <header class="post-header">
+  <script async="" src="./templete_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108085250-1');
+</script>
+
+
+    <h1 class="post-title">Segmentation of Pericardial Adipose Tissue in CMR Images: a Benchmark Dataset MRPEAT and a Triple-Stage Network 3SUnet</h1>
+  </header>
+
+  <article class="post-content">
+    <div class="home">
+  <script async="" src="./templete_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108085250-1');
+</script>
+
+  
+
+<br>
+<b>Background</b><br>
+The increased pericardial adipose tissue (PEAT) is associated with a series of cardiovascular diseases (CVDs) and metabolic syndromes. Therefore, particular emphasis should be placed on PEAT quantification and its role in CVD development and progression. In addition, given the more promising clinical value of quantifying PEAT in cardiovascular magnetic resonance (CMR) images than computed tomography (CT) images in CVD assessment, an accurate and time-saving PEAT measurement based on CMR is indispensable.
+<br><br>
+<b>Motivation</b><br>
+However, almost all existing studies are based on computed tomography (CT) diagnostic modality. Although there is a study segmenting EAT in CMR images in the standard four-chamber(4CH) view, this dataset is unavailable and cardiac short axis (SA) MR images are more prevalent in CVD diagnosis. Segmentation of PEAT in cardiac SA MR images still an pending problem due to the following challenges, 1) the absence of public CMR datasets, 2) diversity in shape, size and location of PEAT, 3) severe class imbalance , and 4) heavily overlapping in intensity. 
+<br><br>
+<br><br>
+
+<font color="F65353"><b>Our Contributions</b></font><br>
+To address the above challenges, we release a benchmark dataset and propose a deep learning model to segment PEAT in cardiac SA MR images. The main contributions of our paper are given as follows.
+<br>- A cardiac SA MR image dataset is released with PEAT being labelled by a radiologist and checked by another and a multiple-stage deep learning model is proposed to segment PEAT in the dataset.
+<br>
+<img src="./image/csz1.png" alt="reid pic" style="width:800px;height:248px;" title="reid" ;="" algin="middle">
+<br><br>
+<br>- Ventricle segmentation and location are adopted as two additional tasks to assist the model in locating PEAT by ensuring surroundings meet with clinical anatomy.
+<br>- Continual learning is used to transfer knowledge from existing datasets with cardiac ventricle labels to release additional requirements on labelling our dataset.
+<br>- A prior guidance strategy is proposed to refine PEAT segmentation results by retrieving knowledge from ground truth labels and image contents.
+<br>
+<img src="./image/csz2.png" alt="reid pic" style="width:800px;height:590px;" title="reid" ;="" algin="middle">
+<br><br>
+<br>- The segmentation model is qualitatively and quantitatively compared with state-of-the-art models on the dataset we released.    
+<img src="./image/csz3.png" alt="reid pic" style="width:800px;height:200px;" title="reid" ;="" algin="middle">
+<br>More informations are referred in our<a href="https://gonghewandou.github.io/Page2/" target="_blank"> paper</a>!
+
+<br><br>
+       
+<b>Sources</b>
+<br>Now!
+<br>Dataset can be downloaded in Our <a href="https://gonghewandou.github.io/Page2/" target="_blank"> Dataset_site</a>!
+<br>Codes can be downloaded in Our <a href="https://gonghewandou.github.io/Page2/" target="_blank"> Github</a>!
+
+</div>
+
+  </article>
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+<!--
+  <div class="wrapper">
+    <div class="site-navigation">
+      <p><a href="mailto:paul.e.soto@frb.gov"><i class="fa fa-envelope"></i> E-mail</a></p>
+    </div>
+
+    <div class="site-contact">
+      <p><a href="https://www.github.com/pesoto"><i class="fa fa-github"></i> GitHub</a></p>
+    </div>
+
+    <div class="site-signature">
+      <p><a href="https://www.linkedin.com/in/paul-e-soto-2705ab218/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></p>
+    </div>
+
+  </div>
+-->
+</footer>
+
+<!-- Scripts -->
+<script src="./templete_files/jquery-1.11.2.min.js.下载"></script>
+<script src="./templete_files/highlight.min.js.下载"></script>
+<script src="./templete_files/lightbox.min.js.下载"></script>
+<script id="dsq-count-scr" src="./templete_files/count.js.下载" async=""></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+  //Make sure all the post's links open in a new tab
+  jQuery('.post-content a, .post-excerpt a').not('.footnote, .reversefootnote').attr ('target', '_blank');
+
+});
+
+</script>
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="https://pesoto.github.io/"><div class="lb-nav"><a class="lb-prev" href="https://pesoto.github.io/"></a><a class="lb-next" href="https://pesoto.github.io/"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
