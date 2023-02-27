@@ -94,6 +94,8 @@ However, almost all existing studies are based on computed tomography (CT) diagn
 <font color="F65353"><b>Our Contributions</b></font><br>
 To address the above challenges, we release a benchmark dataset and propose a deep learning model to segment PEAT in cardiac SA MR images. The main contributions of our paper are given as follows.
 <br>- A cardiac SA MR image dataset is released with PEAT being labelled by a radiologist and checked by another and a multiple-stage deep learning model is proposed to segment PEAT in the dataset.
+
+      
 <br>- Ventricle segmentation and location are adopted as two additional tasks to assist the model in locating PEAT by ensuring surroundings meet with clinical anatomy.
 <br>- Continual learning is used to transfer knowledge from existing datasets with cardiac ventricle labels to release additional requirements on labelling our dataset.
 <br>- A prior guidance strategy is proposed to refine PEAT segmentation results by retrieving knowledge from ground truth labels and image contents.
@@ -103,6 +105,7 @@ To address the above challenges, we release a benchmark dataset and propose a de
 <img src="./pictures/framework.png" alt="reid pic" style="width:554px;height:354px;" title="reid" ;="" algin="middle">
 <br>More detials are given in our<a href="https://www.sciencedirect.com/science/article/pii/S089360802300045X" target="_blank"> paper</a>!
 <br><br>
+       
 <b>Experiments</b><br>
 We have conducted experiments on 12 benchmark datasets of person re-identification (Market1501, DukeMTMC, CUHK03, CUHK-SYSU, MSMT17, GRID, SenseReID, CUHK01, CUHK02, VIPER, iLIDS, and PRID). We adopt commonly used evaluation metrics, namely the Rank-1 index and the mean average precision (mAP) to evaluate the performance of our CKP.	
 <br><br>
