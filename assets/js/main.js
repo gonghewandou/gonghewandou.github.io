@@ -40,7 +40,7 @@ function getBingImages(imgUrls) {
 	else index++;
 	var imgUrl = imgUrls[index];
 	var url = "https://raw.githubusercontent.com/gonghewandou/gonghewandou.github.io/master/1.jpg";
-	$panel.css("background", "url('" + url + "') center center no-repeat #666");
+	$panel.css("background", "url("https://raw.githubusercontent.com/gonghewandou/gonghewandou.github.io/master/1.jpg") center center no-repeat #666");
 	$panel.css("background-size", "cover");
 	sessionStorage.setItem(indexName, index);
 }
