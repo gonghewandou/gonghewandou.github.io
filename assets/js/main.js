@@ -39,7 +39,7 @@ function getBingImages(imgUrls) {
 	if (isNaN(index) || index == 7) index = 0;
 	else index++;
 	var imgUrl = imgUrls[index];
-	var url = "https://github.com/gonghewandou/gonghewandou.github.io/blob/master/1.jpg?raw=true";
+	var url = "https://raw.githubusercontent.com/gonghewandou/gonghewandou.github.io/master/1.jpg";
 	$panel.css("background", "url('" + url + "') center center no-repeat #666");
 	$panel.css("background-size", "cover");
 	sessionStorage.setItem(indexName, index);
