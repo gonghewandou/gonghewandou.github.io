@@ -89,14 +89,16 @@ The increased pericardial adipose tissue (PEAT) is associated with a series of c
 <b>Motivation</b><br>
 However, almost all existing studies are based on computed tomography (CT) diagnostic modality due to 1) the absence of public CMR datasets, 2) diversity in shape, size and location of PEAT, 3) severe class imbalance , and 4) heavily overlapping in intensity.   
 <br><br>
-<img src="./pictures/setup.png" alt="reid pic" style="width:554px;height:190px;" title="reid" ;="" algin="middle">
 <br><br>
 
 <font color="F65353"><b>Our Contributions</b></font><br>
-To address the above challenges, we propose a Continual person re-identification model via a Knowledge-Preserving (CKP) mechanism. Our contributions are summarized as follows:
-<br>- A fully connected graph is constructed to preserve knowledge extracted from continual learning process and used to guide training.
-<br>- A temporary graph, which is also fully connected, is constructed by features extracted from any given training batch.
-<br>- The most related knowledge is propagated from the temporary graph to the knowledge preserving graph via a Graph Attention Network (GAT).
+To address the above challenges, we release a benchmark dataset and propose a deep learning model to segment PEAT in cardiac SA MR images. The main contributions of our paper are given as follows.
+<br>- A cardiac SA MR image dataset is released with PEAT being labelled by a radiologist and checked by another and a multiple-stage deep learning model is proposed to segment PEAT in the dataset.
+<br>- Ventricle segmentation and location are adopted as two additional tasks to assist the model in locating PEAT by ensuring surroundings meet with clinical anatomy.
+<br>- Continual learning is used to transfer knowledge from existing datasets with cardiac ventricle labels to release additional requirements on labelling our dataset.
+<br>- A prior guidance strategy is proposed to refine PEAT segmentation results by retrieving knowledge from ground truth labels and image contents.
+<br>- The segmentation model is qualitatively and quantitatively compared with state-of-the-art models on the dataset we released.     
+<br>- Regression analysis and the cut-off values show that healthy subjects and patients with HCM and AMI can be distinguished by PEAT volume.
 <br><br>
 <img src="./pictures/framework.png" alt="reid pic" style="width:554px;height:354px;" title="reid" ;="" algin="middle">
 <br>More detials are given in our<a href="https://www.sciencedirect.com/science/article/pii/S089360802300045X" target="_blank"> paper</a>!
